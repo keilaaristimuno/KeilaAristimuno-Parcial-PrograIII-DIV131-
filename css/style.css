@@ -54,3 +54,14 @@ body{
     color: black;
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+#frutas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}

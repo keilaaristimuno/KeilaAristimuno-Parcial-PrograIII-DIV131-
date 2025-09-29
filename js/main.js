@@ -161,6 +161,6 @@ function crearContadorCarrito(){
 
 //creo la funcio que se encarga de dar el total del precio:
 function totalCarritoPrecio (){
-    let acumulador = 0;
+    let acumulador = 0; 
     
 }
