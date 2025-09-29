@@ -1,3 +1,56 @@
+:root{
+    --VerdePrincipal: #40c925c7;
+}
+
 body{
     margin: 0;
 }
+
+#MainNav{
+    display: flex;
+    background-color: var(--VerdePrincipal);
+    gap: 10rem;
+    padding: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#listadoProductos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+
+
+.cardProducto{
+    /* display: flex;
+    column-gap: 1.5rem; */
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.9);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    
+}
+
+.cardProducto img{
+    width: 50%;
+}
+
+.agregarAlCarrito{
+    background-color: var(--VerdePrincipal);
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.agregarAlCarrito:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
